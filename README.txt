@@ -1,10 +1,11 @@
-******************************************************************************************************************
+***************************************************************************************************************
 * Copyright (c) 2017 Tristan Weber
 *
 * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
-* documentation files (the "Software"), to deal in the Software without restriction, including without limitation
-* the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
-* and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+* documentation files (the "Software"), to deal in the Software without restriction, including without
+* limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+* Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+* conditions:
 * 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions
 * of the Software.
@@ -14,28 +15,29 @@
 * THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
 * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 * DEALINGS IN THE SOFTWARE.
-******************************************************************************************************************
+***************************************************************************************************************
 
-GPULoadAlert is a simple tool to monitor GPU usage and alerting the user when the GPU load falls below a certain
-threshold. The purpose of this tool is to be notified when the GPU is idle after being finished with a rendering
-job.
+GPULoadAlert is a simple tool to monitor NVIDIA GPU usage and alerting the user when the GPU load falls below a 
+certain threshold. The purpose of this tool is to be notified when the GPU is idle after being finished with a
+rendering job.
 
 
 Using GPULoadAlert:
 Monitor GPU toggle: Starts or stops the monitoring of the selected GPU
-Which GPU #: Select the actual GPU to monitor (if multiple are installed in the system) by dragging in this field
+Which GPU #: Select the actual GPU to monitor (if multiple are installed in the system) by dragging in this
+field
 Use Mail toggle: When the alert is triggered a mail is sent with the account specified in data/smtp.xml
 Use Alert Sound toggle: When the alert is triggered a sound will be played
 Wait Time (Minutes): The time for the application to wait before triggering an alert. Useful if the GPU load of
-the rendering job drops sometimes. Only if the GPU is below the threshold for the set amount of minutes the alert
-will be triggered. Set the time by dragging in this field
+the rendering job drops sometimes. Only if the GPU is below the threshold for the set amount of minutes the
+alert will be triggered. Set the time by dragging in this field
 Minimum GPU Load: Set the % threshold for the alert to trigger by dragging in this field
 
 While monitoring the GPU the interface will be tinted green, otherwise red.
 
 
 About GPULoadAlert source:
-This is an openframeworks project. It depends on the addons ofxGui, ofxSMTP and ofxSSLManager
+This is an openframeworks 0.9.8 project. It depends on the addons ofxGui, ofxSMTP and ofxSSLManager
 Download: https://github.com/Echolaitoc/GPULoadAlert
 
 
