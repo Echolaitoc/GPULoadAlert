@@ -20,6 +20,7 @@ GPULoadAlert is a simple tool to monitor GPU usage and alerting the user when th
 threshold. The purpose of this tool is to be notified when the GPU is idle after being finished with a rendering
 job.
 
+
 Using GPULoadAlert:
 Monitor GPU toggle: Starts or stops the monitoring of the selected GPU
 Which GPU #: Select the actual GPU to monitor (if multiple are installed in the system) by dragging in this field
@@ -32,5 +33,10 @@ Minimum GPU Load: Set the % threshold for the alert to trigger by dragging in th
 
 While monitoring the GPU the interface will be tinted green, otherwise red.
 
+
+About GPULoadAlert source:
+This is an openframeworks project. It depends on the addons ofxGui, ofxSMTP and ofxSSLManager
+Download: https://github.com/Echolaitoc/GPULoadAlert
+
+
 Questions or bug reports to: info@tristanweber.com
-Source: https://github.com/Echolaitoc/GPULoadAlert
