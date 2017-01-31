@@ -24,6 +24,8 @@ rendering job.
 
 Using GPULoadAlert:
 Monitor GPU toggle: Starts or stops the monitoring of the selected GPU
+Periodical Alert toggle: If checked, the monitoring will continue until it is turned off manually, if it is
+unchecked the alert will only trigger once
 Which GPU #: Select the actual GPU to monitor (if multiple are installed in the system) by dragging in this
 field
 Use Mail toggle: When the alert is triggered a mail is sent with the account specified in data/smtp.xml
@@ -40,5 +42,6 @@ About GPULoadAlert source:
 This is an openframeworks 0.9.8 project. It depends on the addons ofxGui, ofxSMTP and ofxSSLManager
 Download: https://github.com/Echolaitoc/GPULoadAlert
 
+Download compiled application: http://tristanweber.com/GPULoadAlert.zip
 
 Questions or bug reports to: info@tristanweber.com

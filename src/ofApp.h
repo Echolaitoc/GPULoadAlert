@@ -47,8 +47,9 @@ private:
 	ofSoundPlayer alertSound;
 	ofxPanel gui;
 	ofxToggle monitor;
+	ofxToggle periodical;
 	ofxIntSlider gpuIndex;
-	ofxIntSlider waitTime;
+	ofxFloatSlider waitTime;
 	ofxIntSlider minimumLoad;
 	ofxToggle useMail;
 	ofxToggle useSound;
