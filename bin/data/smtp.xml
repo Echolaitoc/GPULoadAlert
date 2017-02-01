@@ -1,5 +1,5 @@
 <account>
-  <host>mail.mindactserver.de</host>
+  <host>mail.yourhost.com</host>
   <port>587</port>
   <encryption>STARTTLS</encryption>
   <!-- <encryption>SSLTLS</encryption> -->
@@ -7,8 +7,8 @@
   <timeout>30000</timeout> <!-- smtp timeout in milliseconds -->
   <message-send-delay>100</message-send-delay> <!-- time between messages in milliseconds -->
   <authentication>
-    <username>exponatlog@copyrightcommunications.de</username>
-    <password>eXpo4488</password>
+    <username>#######@#######.com</username>
+    <password>#######</password>
     <type>AUTH_LOGIN</type>
     <!-- <type>AUTH_NONE</type> -->
     <!-- <type>AUTH_CRAM_MD5</type> -->

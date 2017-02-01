@@ -182,26 +182,17 @@ void ofApp::nvidiaSetup()
 
 void ofApp::guiSetup()
 {
-	float y = -20;
-	if (debug)
-	{
-		y = 10;
-	}
-	gui.setup("", "settings.xml", 10, y);
+	gui.setup("", "settings.xml", 10, 10);
 	gui.add(monitor.setup("Monitor GPU", false));
 	gui.add(periodical.setup("Periodical Alert", true));
-	gui.add(gpuIndex.setup("Which GPU #", 0, 0, gpuCount));
+	gui.add(gpuIndex.setup("Which GPU No.", gpuCount - 1, 0, gpuCount - 1));
 	gui.add(useMail.setup("Use Mail", false));
 	gui.add(useSound.setup("Use Alert Sound", true));
 	gui.add(waitTime.setup("Wait Time (Minutes)", 1, 0, 15));
 	gui.add(minimumLoad.setup("Minimum GPU Load", 80, 0, 100));
 	gui.add(gpuLoad.setup("Current GPU Load", "0%"));
-	float height = gui.getHeight() - 10;
-	if (debug)
-	{
-		height = gui.getHeight() + 20;
-	}
-	ofSetWindowShape(gui.getWidth() + 20, height);
+	gui.loadFromFile("settings.xml");
+	ofSetWindowShape(gui.getWidth() + 20, gui.getHeight() + 20);
 }
 
 void ofApp::mailSetup()

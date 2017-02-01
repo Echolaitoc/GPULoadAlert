@@ -1,0 +1,10 @@
+<group>
+	<Monitor_GPU>0</Monitor_GPU>
+	<Periodical_Alert>1</Periodical_Alert>
+	<Which_GPU_No_>0</Which_GPU_No_>
+	<Use_Mail>0</Use_Mail>
+	<Use_Alert_Sound>1</Use_Alert_Sound>
+	<Wait_Time__Minutes_>1</Wait_Time__Minutes_>
+	<Minimum_GPU_Load>80</Minimum_GPU_Load>
+	<Current_GPU_Load>0%</Current_GPU_Load>
+</group>

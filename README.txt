@@ -17,12 +17,15 @@
 * DEALINGS IN THE SOFTWARE.
 ***************************************************************************************************************
 
+Version 1.1 (01.02.2017)
+
 GPULoadAlert is a simple tool to monitor NVIDIA GPU usage and alerting the user when the GPU load falls below a 
 certain threshold. The purpose of this tool is to be notified when the GPU is idle after being finished with a
 rendering job.
 
 
 Using GPULoadAlert:
+At the top of the menu are buttons to save or restore the current values from data/settings.xml
 Monitor GPU toggle: Starts or stops the monitoring of the selected GPU
 Periodical Alert toggle: If checked, the monitoring will continue until it is turned off manually, if it is
 unchecked the alert will only trigger once
@@ -35,6 +38,7 @@ the rendering job drops sometimes. Only if the GPU is below the threshold for th
 alert will be triggered. Set the time by dragging in this field
 Minimum GPU Load: Set the % threshold for the alert to trigger by dragging in this field
 
+The default values can be edited manually in data/settings.xml
 While monitoring the GPU the interface will be tinted green, otherwise red.
 
 
