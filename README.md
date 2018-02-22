@@ -42,6 +42,12 @@ The default values can be edited manually in data/settings.xml
 While monitoring the GPU the interface will be tinted green, otherwise red.
 
 
+![App screenshot when inactive](https://raw.githubusercontent.com/Echolaitoc/GPULoadAlert/master/inactive.png)
+When the app is inactive
+
+![App screenshot when active](https://raw.githubusercontent.com/Echolaitoc/GPULoadAlert/master/active.png)
+When the app is monitoring the GPU
+
 About GPULoadAlert source:
 This is an openframeworks 0.9.8 project. It depends on the addons ofxGui, ofxSMTP and ofxSSLManager
 Download: https://github.com/Echolaitoc/GPULoadAlert

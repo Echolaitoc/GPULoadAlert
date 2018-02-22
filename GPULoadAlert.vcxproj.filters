@@ -1,162 +1,166 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Client.cpp">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Credentials.cpp">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\GmailSettings.cpp">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Settings.cpp">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxSSLManager\src\ofSSLManager.cpp">
-			<Filter>addons\ofxSSLManager\src</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxGui">
-			<UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxGui\src">
-			<UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP">
-			<UniqueIdentifier>{24F8A07D-0D69-80AB-71A8-BDED}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\src">
-			<UniqueIdentifier>{93054CF2-551A-CB9A-528C-CC8F}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs">
-			<UniqueIdentifier>{B7EBC5B6-56E4-7AF6-CA5F-D853}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs\ofxSMTP">
-			<UniqueIdentifier>{D761C18B-A4EC-21AD-C936-16B3}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs\ofxSMTP\include">
-			<UniqueIdentifier>{73E0D895-04D4-F10C-C96B-D0D7}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs\ofxSMTP\include\ofx">
-			<UniqueIdentifier>{31335A6F-7507-6A66-6AB4-B78A}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP">
-			<UniqueIdentifier>{65C2B41C-A4E6-8F07-2EBF-1570}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSMTP\libs\ofxSMTP\src">
-			<UniqueIdentifier>{F06A31EC-554B-39B1-DC54-AE87}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSSLManager">
-			<UniqueIdentifier>{6BB2751F-353D-4217-67D5-26CE}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxSSLManager\src">
-			<UniqueIdentifier>{4024F8A5-1F4B-AFDB-E4BD-7E0C}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\src\ofxSMTP.h">
-			<Filter>addons\ofxSMTP\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Client.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Credentials.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Events.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\GmailSettings.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Settings.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Types.h">
-			<Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxSSLManager\src\ofSSLManager.h">
-			<Filter>addons\ofxSSLManager\src</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Client.cpp">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Credentials.cpp">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\GmailSettings.cpp">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\src\Settings.cpp">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxSSLManager\src\ofSSLManager.cpp">
+      <Filter>addons\ofxSSLManager\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP">
+      <UniqueIdentifier>{24F8A07D-0D69-80AB-71A8-BDED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\src">
+      <UniqueIdentifier>{93054CF2-551A-CB9A-528C-CC8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs">
+      <UniqueIdentifier>{B7EBC5B6-56E4-7AF6-CA5F-D853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs\ofxSMTP">
+      <UniqueIdentifier>{D761C18B-A4EC-21AD-C936-16B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs\ofxSMTP\include">
+      <UniqueIdentifier>{73E0D895-04D4-F10C-C96B-D0D7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs\ofxSMTP\include\ofx">
+      <UniqueIdentifier>{31335A6F-7507-6A66-6AB4-B78A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP">
+      <UniqueIdentifier>{65C2B41C-A4E6-8F07-2EBF-1570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSMTP\libs\ofxSMTP\src">
+      <UniqueIdentifier>{F06A31EC-554B-39B1-DC54-AE87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSSLManager">
+      <UniqueIdentifier>{6BB2751F-353D-4217-67D5-26CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxSSLManager\src">
+      <UniqueIdentifier>{4024F8A5-1F4B-AFDB-E4BD-7E0C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\src\ofxSMTP.h">
+      <Filter>addons\ofxSMTP\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Client.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Credentials.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Events.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\GmailSettings.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Settings.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP\Types.h">
+      <Filter>addons\ofxSMTP\libs\ofxSMTP\include\ofx\SMTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxSSLManager\src\ofSSLManager.h">
+      <Filter>addons\ofxSSLManager\src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GPULoadAlert.ico" />
+  </ItemGroup>
 </Project>
